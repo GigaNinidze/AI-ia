@@ -57,8 +57,12 @@ corpus/out/
 checkpoints/
 tokens/
 *.jsonl
-*.txt
 *.bin
+
+# Exclude specific text files but allow documentation
+corpus/*.txt
+tokens/*.txt
+*.log
 
 # Logs
 *.log
