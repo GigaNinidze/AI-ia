@@ -20,12 +20,19 @@ This project contains:
 ├── AI-ია.md                    # Educational content about AI
 ├── პროგრამირება_ხელოვნური_ინტელექტით.md  # Programming with AI
 ├── ვებსაიტები.md              # Websites documentation
+├── პრომპტები.md               # Prompts documentation
 ├── generate.py                 # Text generation script
 ├── counter.py                  # Utility script
 ├── 3D - tensor.png            # Visual aid for AI concepts
 ├── gradient_descent.png        # Gradient descent visualization
 ├── cursor-context.png          # Cursor context example
 ├── cursor-agent-ask.png        # Cursor agent example
+├── Deerantlers.png             # Additional visual content
+├── banana-ai.png               # AI visualization
+├── barbieprompt.png            # Prompt example
+├── collage-pattern.jpg         # Pattern visualization
+├── geoflag-correct.png         # Georgian flag visualization
+├── mcdanceGeorgian.png         # Georgian dance visualization
 ├── train/                      # Training code
 │   └── train.py               # Main training script
 ├── corpus/                     # Corpus data
@@ -47,8 +54,8 @@ This project contains:
 ### Installation
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd ქართული-ენა
+git clone https://github.com/GigaNinidze/AI-ia.git
+cd AI-ia
 
 # Install dependencies
 pip install torch sentencepiece transformers
@@ -76,6 +83,7 @@ The project includes educational materials in Georgian:
 - **AI-ია.md**: Introduction to artificial intelligence concepts
 - **პროგრამირება_ხელოვნური_ინტელექტით.md**: Programming with AI
 - **ვებსაიტები.md**: Web development resources
+- **პრომპტები.md**: AI prompts and examples
 
 ## 🛠️ Technical Details
 
