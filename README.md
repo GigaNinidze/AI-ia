@@ -1,3 +1,39 @@
+
+AI-ია.md-  "ხელოვნური ინტელექტი შიგნიდან" ვაწყობთ ქართული ენის მცირე მოდელს 
+სპეციალური ტოკენაიზერით, რომელიც გამოთვლილია მხოლოდ ქართული ტექსტის, ციფრების და სიმბოლოებისთვის. მიზანია შეიქმნას მცირე ენის მოდელი რომელიც ხვდება გრამატიკის საფუძვლებს და მოკლე კონტექსტში სწორ წინადადებებს ააწყობს. 
+
+აქ ჯერ წიგნები ჩამოვტივრთე და 200მბ ტექსტის გამოყენება ვცადე, მაგრამ შემდეგ ვიკი დამფი ჩამოვტვირთე და ფაილები გავლიტრე, მაგრამ ჯერ ბოლომდე არა. 200მბ ტექსტით შექმნილი მოდელი ცუდ შედეგებს იძლეოდა pdf-დან ცუდი კოპირების და შემდგომ ცუდი გაწმენდის გამო :(    მაგრამ 800 ვეფხისტყაოსანის ხელით გაწმენდაც არ იყო გამოსავალი :) 
+
+websitebi.md - ზოგი უფასო ვებსაიტის ნაკრები. ხელოვნური ინტეელქტით ან მის გარაშე, უბრალოდ გამოსადეგი რესურვები ინტერნეტში. 
+
+
+
+
+
+
+
+
+
+
+
+
+# Navigate to wiki folder
+cd wiki
+
+# Analyze your corpus first
+python analyze_corpus.py
+
+# Process all 99,996 articles into clean format
+python process_wiki_corpus.py
+# Train a better tokenizer on your large corpus
+python train_tokenizer.py
+# Train with enhanced architecture for your large dataset
+python improved_training.py
+# Or run everything automatically
+python run_full_pipeline.py
+
+
+
 # ქართული ენა - Georgian Language Model Project
 
 A comprehensive project for training small language models on Georgian text, including educational content and practical tools for Georgian language processing.

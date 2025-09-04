@@ -54,8 +54,10 @@ Thumbs.db
 
 # Large data files (corpus, checkpoints, tokens)
 corpus/out/
+corpus/clean_georgian/
 checkpoints/
 tokens/
+wiki/articles/
 *.jsonl
 *.bin
 
