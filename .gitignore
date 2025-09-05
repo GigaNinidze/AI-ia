@@ -58,6 +58,7 @@ corpus/clean_georgian/
 checkpoints/
 tokens/
 wiki/articles/
+wiki/*.xml
 *.jsonl
 *.bin
 
